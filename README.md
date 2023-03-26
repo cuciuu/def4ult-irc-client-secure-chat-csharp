@@ -3,7 +3,7 @@
 
 # DEF4ULT IRC CLIENT (custom encryption)
 
-DOWNLOAD PACKAGES FOLDER HERE: https://www.mediafire.com/file/v2v7tufmo7r2qxw/packages.zip/file
+# DOWNLOAD PACKAGES FOLDER HERE: https://www.mediafire.com/file/v2v7tufmo7r2qxw/packages.zip/file
 "Private def4ult" is a C# source code available on GitHub that provides a new way of chatting securely and privately using your own server and VPN. The source code uses a custom encryption method that utilizes MD5CryptoServiceProvider in C#. Users can create their own custom key using the encryptor and join any IRC chat using the application.  To chat with another person, both parties need to have the custom key encrypted and added to the app. Messages sent to the IRC are encrypted and decrypted on the client-side, ensuring that only the intended recipients can view them. Even if someone else is connected to the IRC, they won't be able to see the conversation unless they are using the same app and have the private key.  The app also includes a feature that prevents users from logging in unless they are connected to a specific VPN or IP, adding an extra layer of security. It supports connecting to any IRC server, regardless of ownership, as messages are encrypted to the public and decrypted only to the intended recipients, making it safe to talk about anything.  The source code utilizes two libraries, NetIRC, and Gunna.UI. It is a promising project that provides a secure and private way of communication, especially for those concerned about their privacy. 
 
 
